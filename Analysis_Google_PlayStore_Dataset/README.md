@@ -17,29 +17,45 @@ The dataset contains following columns:
 |App |Category|Rating|Reviews|Size_MBs|Installs|Type|Price|Content_Rating|Genres|Last_Updated|Android_Ver|
 |---|---|---|---|---|---|---|---|---|---|---|---|  
 
-# Analysis steps:
-We will use Pandas, NumPym and Plotly to analyse and get insights from the datasset. Please check the .ipynb file for detailed explanation.
+# Analysis summary:
+We will use Pandas, NumPym and Plotly to analyse and get insights from the datasset. **Please check the .ipynb file for detailed explanation**.
 
 - Read the Dataset
   ![Image](./images/dataset.png)
 - Cleaning (NaN and Duplicates)
 - Highest Rated Apps, Largest Apps in terms of Size (MBs), Top Apps with Most Reviews
 - Visualise Categorical Data: Content Ratings
+  
   ![Image](./images/ratings.png)
 - Analysing App Categories
 - Highest Competition (Number of Apps)
+
   ![Image](./images/comptition.png)
+
 - Most Popular Categories (Highest Downloads)
+
   ![Image](./images/popularity.png)
+
 - Category Concentration: Competition (Number of Apps) vs Popularity (Number of Downloads)
+
   ![Image](./images/concentration.png)
+
 - Competition in Genres
-  ![Image](./images/concentration.png)
-- Free vs. Paid Apps per Category
+
   ![Image](./images/genres.png)
-- How Many Downloads are Paid Apps Giving Up?
+
+- Free vs. Paid Apps per Category
+
   ![Image](./images/freevspaid.png)
+
+- How Many Downloads are Paid Apps Giving Up?
+
+  ![Image](./images/Giveup_box.png)
+
 - How Much Can Paid Apps Earn?
+
   ![Image](./images/paidApp.png)
+
 - How Much Can we Charge? Paid App Pricing Strategies by Category
+
   ![Image](./images/charge.png)
