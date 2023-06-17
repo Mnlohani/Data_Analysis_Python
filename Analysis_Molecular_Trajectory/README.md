@@ -17,26 +17,40 @@ Monte-Carlo. Both trajectories have 1000000 time steps. Each contains the follow
 
 ## Analysis summary:
 
-### Visualization of trajectories
+### Visualization of trajectories with potential energies
 
-![Image](./images/Traj_1_2d.png)
+![Image](./images/Traj_1.png)
 
-### Visualization of Potential Energy
-
-![Image](./images/Traj_1_3d.png)
 
 ### Histogram of Trajectories
 
-![Image](./images/hist_traj_1.png)
+![Image](./images/Traj_1_histogram.png)
 
-![Image](./images/3D_hist_Traj_1.png)
+## Elbow Method with K-means Clustering:
+Before clustering, elbow method is also used to find out optimal number of clusters. The basic idea behind partitioning methods, such as k-means clustering, is to define clusters such that the total intra-cluster variation (or total within-cluster sum
+of square (WSS)) is minimized and we want it to be as small as possible. We compute clustering algorithm (e.g., k-means clustering) for different values of k (1 to 10). Figure shows results for rajectory 1. 
 
-## k-mean Clustering for trajectory 1
-#### Elbow Method:
+### Elbow Method:
+The Elbow Method can be de ned as follow:
+- For each k, calculate the total of within-cluster sum of square (wss).
+- Plot the curve of wss according to the number of clusters k.
+- The location of a bend (knee) in the plot is generally considered as an indicator of the appropriate number of clusters.
 
-![Image](./images/Elbow_method_1.png)
+![Image](./images/elbow.png)
 
-![Image](./images/Clusters_tr1-2.png)
+For First trajectory, elbow method shows 4 clusters clearly, while for second trajectory it is not very much
+clear.
+
+### K-means Clustering :
+- Randomly choose cluster centers.
+- Assign points to closest center.
+- Update centers.
+- Reassign the points to cluster centers.
+- Repeat until the convergence reached. The convergence means when the membership no longer changes
+or changes less than the tolerance limit.
+
+![Image](./images/kmeans.png)
+
 
 
 
