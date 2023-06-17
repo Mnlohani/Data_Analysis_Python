@@ -21,10 +21,14 @@ Monte-Carlo. Both trajectories have 1000000 time steps. Each contains the follow
 
 ![Image](./images/Traj_1.png)
 
-
 ### Histogram of Trajectories
 
 ![Image](./images/Traj_1_histogram.png)
+
+### Later stages of trajectories
+
+![Image](./images/Later_traj.png)
+
 
 ## Elbow Method with K-means Clustering:
 Before clustering, elbow method is also used to find out optimal number of clusters. The basic idea behind partitioning methods, such as k-means clustering, is to define clusters such that the total intra-cluster variation (or total within-cluster sum
