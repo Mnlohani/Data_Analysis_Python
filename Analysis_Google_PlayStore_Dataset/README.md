@@ -25,8 +25,8 @@ We will use Pandas, NumPym and Plotly to analyse and get insights from the datas
 - Cleaning (NaN and Duplicates)
 - Highest Rated Apps, Largest Apps in terms of Size (MBs), Top Apps with Most Reviews
 
-  ## Analysing App Categories
-  - Visualise Categorical Data: Content Ratings
+## Analysing App Categories
+- Visualise Categorical Data: Content Ratings
   
   ![Image](./images/ratings.png)
   
