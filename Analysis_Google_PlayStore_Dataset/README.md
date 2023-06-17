@@ -10,14 +10,14 @@ we will compare thousands of apps in the Google Play Store so that we can gain i
 - Which paid apps have had the highest revenue
 - How many paid apps will recoup their development costs based on their sales revenue
 
-# About the Dataset of Google Play Store Apps & Reviews
+## About the Dataset of Google Play Store Apps & Reviews
 App and review data was scraped from the Google Play Store by Lavanya Gupta in 2018. Original files listed [here](
 https://www.kaggle.com/lava18/google-play-store-apps).
 The dataset contains following columns:  
 |App |Category|Rating|Reviews|Size_MBs|Installs|Type|Price|Content_Rating|Genres|Last_Updated|Android_Ver|
 |---|---|---|---|---|---|---|---|---|---|---|---|  
 
-# Analysis summary:
+## Analysis summary:
 We will use Pandas, NumPym and Plotly to analyse and get insights from the datasset. **Please check the .ipynb file for detailed explanation**.
  - Read the Dataset
   ![Image](./images/dataset.png)
@@ -25,7 +25,7 @@ We will use Pandas, NumPym and Plotly to analyse and get insights from the datas
 - Cleaning (NaN and Duplicates)
 - Highest Rated Apps, Largest Apps in terms of Size (MBs), Top Apps with Most Reviews
 
-## Analysing App Categories
+### Analysing App Categories
 - Visualise Categorical Data: Content Ratings
   
   ![Image](./images/ratings.png)
