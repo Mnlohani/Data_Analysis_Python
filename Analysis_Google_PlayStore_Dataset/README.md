@@ -19,19 +19,21 @@ The dataset contains following columns:
 
 # Analysis summary:
 We will use Pandas, NumPym and Plotly to analyse and get insights from the datasset. **Please check the .ipynb file for detailed explanation**.
-
-- Read the Dataset
+ - Read the Dataset
   ![Image](./images/dataset.png)
+  
 - Cleaning (NaN and Duplicates)
 - Highest Rated Apps, Largest Apps in terms of Size (MBs), Top Apps with Most Reviews
-- Visualise Categorical Data: Content Ratings
+
+  ## Analysing App Categories
+  - Visualise Categorical Data: Content Ratings
   
   ![Image](./images/ratings.png)
-- Analysing App Categories
+  
 - Highest Competition (Number of Apps)
-
+  
   ![Image](./images/comptition.png)
-
+  
 - Most Popular Categories (Highest Downloads)
 
   ![Image](./images/popularity.png)
