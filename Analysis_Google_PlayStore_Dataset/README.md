@@ -1,6 +1,6 @@
 ## Introduction and Objective: 
 ![Image](./images/playstore.png)
-We all have once thought about building your own App. Here, we will do a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store. In this notebook, we will do a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store.  
+We all have once thought about building your own App. Here, we will do a comprehensive analysis of the Android app market by comparing thousands of apps in the Google Play store.
 we will compare thousands of apps in the Google Play Store so that we can gain insight into:
 
 - How competitive different app categories (e.g., Games, Lifestyle, Weather) are
